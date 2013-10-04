@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beihilfe.Desktop", "Beihilfe.Desktop\Beihilfe.Desktop.csproj", "{5F703D53-B80A-44DF-A08E-6BFA57F3F67D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{25A60E33-0985-4FFD-9D76-53DED7A00839}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F703D53-B80A-44DF-A08E-6BFA57F3F67D}.Debug|x86.ActiveCfg = Debug|x86
+		{5F703D53-B80A-44DF-A08E-6BFA57F3F67D}.Debug|x86.Build.0 = Debug|x86
+		{5F703D53-B80A-44DF-A08E-6BFA57F3F67D}.Release|x86.ActiveCfg = Release|x86
+		{5F703D53-B80A-44DF-A08E-6BFA57F3F67D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
