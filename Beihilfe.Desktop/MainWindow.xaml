@@ -1,8 +1,9 @@
 ﻿<Window x:Class="Beihilfe.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:rm="clr-namespace:Microsoft.Practices.Prism.Regions;assembly=Microsoft.Practices.Prism"
+        xmlns:inf="clr-namespace:Beihilfe"
+        xmlns:infrastruktur="clr-namespace:Beihilfe.Infrastruktur;assembly=Beihilfe.Infrastruktur"
         Title="MainWindow" Height="300" Width="300">
-    <Grid>
-        
-    </Grid>
+    <Grid rm:RegionManager.RegionName="{x:Static infrastruktur:RegionNames.Main}"></Grid>
 </Window>
