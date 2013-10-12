@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{25A60E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beihilfe.Infrastruktur", "Beihilfe.Infrastruktur\Beihilfe.Infrastruktur.csproj", "{D5075FD6-52E2-47CC-958C-4598F42A6B56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beihilfe.Vorgang", "Beihilfe.Vorgang\Beihilfe.Vorgang.csproj", "{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,16 @@ Global
 		{D5075FD6-52E2-47CC-958C-4598F42A6B56}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{D5075FD6-52E2-47CC-958C-4598F42A6B56}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{D5075FD6-52E2-47CC-958C-4598F42A6B56}.Release|x86.ActiveCfg = Release|Any CPU
+		{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
