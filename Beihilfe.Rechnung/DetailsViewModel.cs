@@ -1,4 +1,5 @@
-﻿using Microsoft.Practices.Prism.ViewModel;
+﻿using System;
+using Microsoft.Practices.Prism.ViewModel;
 
 namespace Info.Krumnow.Beihilfe.Rechnung
 {
@@ -30,11 +31,22 @@ namespace Info.Krumnow.Beihilfe.Rechnung
             }
         }
 
+        private DateTime erstellt;
+        public DateTime Erstellt {
+            get { return erstellt; }
+            set {
+                if (value.Equals(erstellt)) return;
+                erstellt = value;
+                RaisePropertyChanged(() => Erstellt);
+            }
+        }
+
         public void ZeigeRechnung(Infrastruktur.Daten.Rechnung r)
         {
-            this.rechnung = r;
+            rechnung = r;
             Verursacher = rechnung.Verursacher;
             Betrag = rechnung.Betrag;
+            Erstellt = rechnung.ErstellDatum;
         }
     }
 }
