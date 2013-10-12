@@ -8,7 +8,7 @@
     <ProjectGuid>{D5075FD6-52E2-47CC-958C-4598F42A6B56}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Beihilfe.Infrastruktur</RootNamespace>
+    <RootNamespace>Info.Krumnow.Beihilfe.Infrastruktur</RootNamespace>
     <AssemblyName>Beihilfe.Infrastruktur</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -58,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Daten\Identity.cs" />
-    <Compile Include="Daten\Vorgang.cs" />
+    <Compile Include="Daten\Rechnung.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegionNames.cs" />
   </ItemGroup>

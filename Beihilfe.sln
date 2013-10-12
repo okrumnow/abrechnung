@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{25A60E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beihilfe.Infrastruktur", "Beihilfe.Infrastruktur\Beihilfe.Infrastruktur.csproj", "{D5075FD6-52E2-47CC-958C-4598F42A6B56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beihilfe.Vorgang", "Beihilfe.Vorgang\Beihilfe.Vorgang.csproj", "{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beihilfe.Rechnung", "Beihilfe.Rechnung\Beihilfe.Rechnung.csproj", "{41CACD5E-B87E-4750-AA46-D9A2FA1448DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

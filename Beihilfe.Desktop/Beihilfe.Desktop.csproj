@@ -8,7 +8,7 @@
     <ProjectGuid>{5F703D53-B80A-44DF-A08E-6BFA57F3F67D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Beihilfe</RootNamespace>
+    <RootNamespace>Info.Krumnow.Beihilfe</RootNamespace>
     <AssemblyName>Beihilfe</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>

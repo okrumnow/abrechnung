@@ -2,7 +2,7 @@
 
 namespace Beihilfe.Infrastruktur.Daten
 {
-    public class Vorgang
+    public class Rechnung
     {
         Identity ID { get; set; }
         string Verursacher { get; set; }
