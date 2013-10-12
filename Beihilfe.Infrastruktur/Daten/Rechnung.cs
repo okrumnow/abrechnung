@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Beihilfe.Infrastruktur.Daten
+namespace Info.Krumnow.Beihilfe.Infrastruktur.Daten
 {
     public class Rechnung
     {

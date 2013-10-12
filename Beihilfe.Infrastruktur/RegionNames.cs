@@ -1,4 +1,4 @@
-namespace Beihilfe.Infrastruktur
+namespace Info.Krumnow.Beihilfe.Infrastruktur
 {
     public static class RegionNames
     {

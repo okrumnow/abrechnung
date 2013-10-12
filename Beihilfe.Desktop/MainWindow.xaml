@@ -1,9 +1,8 @@
-﻿<Window x:Class="Beihilfe.MainWindow"
+﻿<Window x:Class="Info.Krumnow.Beihilfe.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:rm="clr-namespace:Microsoft.Practices.Prism.Regions;assembly=Microsoft.Practices.Prism"
-        xmlns:inf="clr-namespace:Beihilfe"
-        xmlns:infrastruktur="clr-namespace:Beihilfe.Infrastruktur;assembly=Beihilfe.Infrastruktur"
+        xmlns:inf="clr-namespace:Info.Krumnow.Beihilfe.Infrastruktur;assembly=Beihilfe.Infrastruktur"
         Title="MainWindow" Height="300" Width="300">
-    <Grid rm:RegionManager.RegionName="{x:Static infrastruktur:RegionNames.Main}"></Grid>
+    <Grid rm:RegionManager.RegionName="{x:Static inf:RegionNames.Main}"></Grid>
 </Window>

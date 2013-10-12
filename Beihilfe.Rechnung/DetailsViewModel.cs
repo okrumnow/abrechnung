@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
-using Beihilfe.Vorgang.Annotations;
+using Info.Krumnow.Beihilfe.Rechnung.Properties;
 
-namespace Beihilfe.Vorgang
+namespace Info.Krumnow.Beihilfe.Rechnung
 {
     public class DetailsViewModel: INotifyPropertyChanged
     {

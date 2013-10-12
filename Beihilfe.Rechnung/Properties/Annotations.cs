@@ -15,9 +15,8 @@
  */
 
 using System;
-using System.ComponentModel;
 
-namespace Beihilfe.Vorgang.Annotations
+namespace Info.Krumnow.Beihilfe.Rechnung.Properties
 {
   /// <summary>
   /// Indicates that marked element should be localized or not.
