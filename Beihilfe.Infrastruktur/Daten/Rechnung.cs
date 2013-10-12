@@ -4,9 +4,9 @@ namespace Info.Krumnow.Beihilfe.Infrastruktur.Daten
 {
     public class Rechnung
     {
-        Identity ID { get; set; }
-        string Verursacher { get; set; }
-        DateTime ErstellDatum { get; set; }
-        decimal Betrag { get; set; }
+        public int ID { get; set; }
+        public string Verursacher { get; set; }
+        public DateTime ErstellDatum { get; set; }
+        public decimal Betrag { get; set; }
     }
 }

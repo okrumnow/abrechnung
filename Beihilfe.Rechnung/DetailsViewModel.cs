@@ -1,17 +1,40 @@
-﻿using System.ComponentModel;
-using Info.Krumnow.Beihilfe.Rechnung.Properties;
+﻿using Microsoft.Practices.Prism.ViewModel;
 
 namespace Info.Krumnow.Beihilfe.Rechnung
 {
-    public class DetailsViewModel: INotifyPropertyChanged
+    public class DetailsViewModel: NotificationObject
     {
-        public event PropertyChangedEventHandler PropertyChanged;
+        private Infrastruktur.Daten.Rechnung rechnung;
 
-        [NotifyPropertyChangedInvocator]
-        protected virtual void OnPropertyChanged(string propertyName)
+        private string verursacher;
+        public string Verursacher
         {
-            PropertyChangedEventHandler handler = PropertyChanged;
-            if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+            get { return verursacher; }
+            set
+            {
+                if (value == verursacher) return;
+                verursacher = value;
+                RaisePropertyChanged(() => Verursacher);
+            }
+        }
+
+        private decimal betrag;
+        public decimal Betrag
+        {
+            get { return betrag; }
+            set
+            {
+                if (value == betrag) return;
+                betrag = value;
+                RaisePropertyChanged(() => Betrag);
+            }
+        }
+
+        public void ZeigeRechnung(Infrastruktur.Daten.Rechnung r)
+        {
+            this.rechnung = r;
+            Verursacher = rechnung.Verursacher;
+            Betrag = rechnung.Betrag;
         }
     }
 }
